@@ -1,0 +1,60 @@
+.SnOrderItemProofList {
+  position: relative;
+}
+.SnOrderItemProofList ul {
+  margin: 0;
+  padding: 0;
+}
+.SnOrderItemProofList[data-size="3"] ul {
+  width: 121px;
+}
+.SnOrderItemProofList[data-size="2"] ul {
+  width: 79px;
+}
+.SnOrderItemProofList[data-size="1"] ul {
+  width: 37px;
+}
+.SnOrderItemProofList li {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  padding: 0;
+  width: 37px;
+  height: 37px;
+}
+.SnOrderItemProofList li:last-child {
+  margin-right: 0;
+}
+.SnOrderItemProofList img {
+  background: #fff;
+  border-radius: 50%;
+  max-width: 37px;
+  width: 37px;
+  height: 37px;
+}
+.SnOrderItemProofListMore {
+  margin: 0;
+  position: absolute;
+  bottom: -1.75rem;
+}
+.SnOrderItemProofCount {
+  margin: 0;
+}
+
+.snoof-unbreakable {
+  white-space: nowrap;
+}
+
+
+/*
+html .woocommerce .woocommerce-MyAccount-content .my_account_orders .woocommerce-orders-table__cell-order-actions a.view {
+  font-size: .875rem;
+  font-weight: normal;
+  background: transparent;
+  border: none;
+  color: #000;
+  padding: 0;
+}
+html .woocommerce .woocommerce-MyAccount-content .my_account_orders .woocommerce-orders-table__cell-order-actions a.view:hover {
+  background: transparent;
+}
+*/

@@ -1,0 +1,50 @@
+/**
+ * Super-specific override for theme styles.
+ */
+body.single-product.woocommerce div.product-uses-art-upload div.entry-summary {
+  width: 100%;
+}
+
+#SnprControlUpload {
+  margin: 20px 0 40px;
+}
+#SnprControlUploadRemove {
+  display: none;
+}
+#SnprControlUpload.hasUploadedFile label[for="SnprControlUploadFile"],
+#SnprControlUpload.hasUploadedFile label[for="SnprControlUploadFile"]::before,
+#SnprControlUpload.hasUploadedFile label[for="SnprControlUploadFile"]::after,
+#SnprControlUpload.hasUploadedFile #SnprControlUploadFile {
+  display: none;
+}
+#SnprControlUpload.hasUploadedFile #SnprControlUploadRemove {
+  display: inline-block;
+}
+
+#SnprControlUploadFile {
+  width: auto;
+}
+#SnprControlUploadPreview img {
+  background-color:#fff;
+}
+#SnprControlUploadNotes,
+label[for="SnprControlUploadNotes"] {
+  display: none;
+}
+
+#SnDialog {
+  padding: 0.5rem;
+}
+
+.VisuallyHidden {
+  border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}

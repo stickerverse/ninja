@@ -1,0 +1,84 @@
+/*
+  hotfix.css
+*/
+/*
+  $body:    $#262626;
+  $pink:    #c96aa4;
+  body {
+    color: #262626;
+    background-color: #f8f8f8;
+  }
+*/
+
+.shipping-estimate-hotfix {
+  background: #F22A5E !important;
+}
+
+
+#SnPrintNoteInner > textarea {
+  padding: 10px !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+}
+.SnCartItemNameMetaItem {
+  white-space: nowrap;
+}
+
+.tip-jar-info-position {
+  margin-top: 8px;
+}
+
+.woocommerce-MyAccount-navigation-link--giftcards {
+  order: 5;
+  display: inline-block !important;
+}
+
+.woocommerce-MyAccount-navigation-link--giftcards > a::before {
+  background-image: url('../../../uploads/2025/03/giftcard.png');
+}
+
+/**********  For Gift cards account page */
+
+.woocommerce-MyAccount-Giftcards-balance-amount {
+  text-align: center;
+}
+
+/* "hidden_from_customers" option on the shop carousel page*/
+.prod-archive__nav-item--hidden {
+  display:none !important;
+}
+
+/* ====================================================== */
+/* = Fix template spacing issues in the My Account      = */
+/* = section.                                           = */
+/* ====================================================== */
+
+body.my-account div.default-content-wrap {
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  body.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation li {
+    width: 16.666666667%;
+  }
+  body.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation li a:after{
+    display: none;
+  }
+}
+@media (min-width: 1356px) {
+  body.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation li a:after{
+    display: inline-block;
+  }
+}
+
+/* Remove stary border from table cell on /my-account/orders/. */
+body .woocommerce .woocommerce-MyAccount-content .my_account_orders th {
+  border: 0;
+}
+
+/** Temporarily hide custom sample option while we are out of stock. 
+Left one commented as an example. */
+
+#SnMaterial-groovy-cubes{
+  display: none !important;
+}
